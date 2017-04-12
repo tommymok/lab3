@@ -1,0 +1,25 @@
+1000
+sort(): 5.8e-05 seconds
+v1/v2 are different.
+insertion_sort(): 0.003359 seconds
+v1/v2 are the same.
+
+10000
+sort(): 0.000467 seconds
+v1/v2 are different.
+insertion_sort(): 0.36695 seconds
+v1/v2 are the same.
+
+100000
+sort(): 0.005664 seconds
+v1/v2 are different.
+insertion_sort(): 34.8351 seconds
+v1/v2 are the same.
+
+1000000
+sort(): 0.067312 seconds
+v1/v2 are different.
+insertion_sort(): 3458.55 seconds
+v1/v2 are the same.
+
+As we can see, using quicksort ,the reaction is much less than using insertion sort,so the time by using quicksort is n log n,but insertion sort is n^2,insertion take n^2 time so we can see when the size valus is 1000000,insertion sort used 3400 seconds to run the progame but quicksort only used 0.06, this is the different by using this two sort.
